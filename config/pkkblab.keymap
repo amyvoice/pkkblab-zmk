@@ -116,10 +116,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC         &kp LA(NUMBER_1)  &kp LA(NUMBER_3)  &kp MINUS           &kp EQUAL   &kp LEFT_ARROW     &kp RIGHT_ARROW  &kp UP_ARROW   &kp DOWN_ARROW  &kp BACKSPACE
-&kp LG(TAB)     &kp LC(N)         &kp LG(D)         &kp LG(E)           &kp LA(F4)  &kp HOME           &kp END          &kp SEMICOLON  &kp APOS        &kp ENTER
-&kp CAPS        &kp LC(A)         &kp LC(C)         &kp LC(V)           &kp ENTER   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp SEMI       &kp APOS        &kp RSHFT
-&kp LEFT_SHIFT  &kp LGUI          &kp LALT          &taptap LSHIFT TAB  &kp SPACE   &kp BACKSPACE      &kp SPACE        &kp LALT       &kp LGUI        &kp DEL
+&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N5          &kp NUMBER_6   &kp N7     &kp N8            &kp N9             &kp N0
+&kp LG(TAB)       &kp LC(N)     &kp LG(D)     &kp LG(E)       &kp LA(F4)      &kp MINUS      &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&kp CAPS          &kp LC(A)     &kp LC(C)     &kp LC(V)       &kp ENTER       &kp SEMICOLON  &kp SQT    &kp COMMA         &kp PERIOD         &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LEFT_SHIFT  &kp SPACE      &kp SPACE  &kp LALT          &kp LGUI           &kp DEL
             >;
         };
 
