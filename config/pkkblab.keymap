@@ -160,10 +160,10 @@
 
         layer_2 {
             bindings = <
-&kp N1            &mkp MB1  &kp UP_ARROW  &mkp MB2            &kp N5          &kp N6  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp N0
-&bt BT_SEL 0      &kp LEFT  &kp DOWN      &kp RIGHT           &bt BT_SEL 4    &kp F1  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp F5
-&bt BT_CLR        &mkp MB3  &mkp MB2      &msc SCRL_DOWN      &bt BT_CLR_ALL  &kp F6  &kp F7          &kp F8          &kp F9           &kp F10
-&kp LEFT_CONTROL  &kp LGUI  &kp LALT      &taptap LSHIFT TAB  &mkp MB1        &trans  &trans          &kp LALT        &kp F11          &kp F12
+&kp PAGE_UP       &mkp MB1      &kp UP_ARROW  &mkp MB2        &kp C_VOLUME_UP    &kp C_VOLUME_UP    &mkp MB1        &mmv MOVE_UP       &mkp MB2            &kp PAGE_UP
+&kp PAGE_DOWN     &kp LEFT      &kp DOWN      &kp RIGHT       &kp C_VOLUME_DOWN  &kp C_VOLUME_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN     &mmv MOVE_RIGHT     &kp PAGE_DOWN
+&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR_ALL  &out OUT_USB       &kp HOME           &kp END         &kp LC(LS(COMMA))  &kp LS(LC(PERIOD))  &kp F10
+&kp LEFT_CONTROL  &kp LGUI      &kp LALT      &mkp MB1        &mkp MB1           &trans             &trans          &kp LALT           &kp F11             &kp F12
             >;
         };
 
