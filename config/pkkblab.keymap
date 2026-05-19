@@ -51,39 +51,19 @@
     combos {
         compatible = "zmk,combos";
 
-        news {
-            bindings = <&kp N>;
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
+
+        Shift {
+            bindings = <&kp LEFT_SHIFT>;
             key-positions = <10 11>;
         };
 
-        desk {
-            bindings = <&kp LG(D)>;
-            key-positions = <11 12>;
-        };
-
-        create {
-            bindings = <&kp LG(E)>;
-            key-positions = <12 13>;
-        };
-
-        altf4 {
-            bindings = <&kp RA(F4)>;
-            key-positions = <13 14>;
-        };
-
-        guilock {
-            bindings = <&kp LG(L)>;
-            key-positions = <23 24>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
-        };
-
-        qw {
-            bindings = <&kp ESC>;
-            key-positions = <0 1>;
+        Ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <20 21>;
         };
 
         bootloader {
@@ -96,9 +76,14 @@
             key-positions = <9 8 7 6>;
         };
 
-        toto {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <1 2>;
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
+        };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 9>;
         };
     };
 
@@ -125,10 +110,10 @@
 
         layer_2 {
             bindings = <
-&kp N1        &kp N2        &kp N3        &kp N4              &kp N5          &kp N6  &kp N7  &kp N8    &kp N9   &kp N0
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3        &bt BT_SEL 4    &kp F1  &kp F2  &kp F3    &kp F4   &kp F5
-&bt BT_CLR    &mkp MB3      &mkp MB2      &msc SCRL_DOWN      &bt BT_CLR_ALL  &kp F6  &kp F7  &kp F8    &kp F9   &kp F10
-&kp LSHFT     &kp LGUI      &kp LALT      &taptap LSHIFT TAB  &mkp MB1        &trans  &trans  &kp LALT  &kp F11  &kp F12
+&kp N1            &kp N2        &kp UP_ARROW  &kp N4              &kp N5          &kp N6  &kp N7  &kp N8    &kp N9   &kp N0
+&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3        &bt BT_SEL 4    &kp F1  &kp F2  &kp F3    &kp F4   &kp F5
+&bt BT_CLR        &mkp MB3      &mkp MB2      &msc SCRL_DOWN      &bt BT_CLR_ALL  &kp F6  &kp F7  &kp F8    &kp F9   &kp F10
+&kp LEFT_CONTROL  &kp LGUI      &kp LALT      &taptap LSHIFT TAB  &mkp MB1        &trans  &trans  &kp LALT  &kp F11  &kp F12
             >;
         };
 
