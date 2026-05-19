@@ -87,6 +87,56 @@
         };
     };
 
+    macros {
+        M0: M0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N1 &kp N7 &kp N7 &kp N1 &kp N0 &kp N2 &kp N8 &kp N3 &kp N5 &kp N1 &kp N2>;
+            label = "M0";
+        };
+
+        M1: M1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp M &kp Y &kp V &kp O &kp I &kp C &kp E &kp AT &kp N1 &kp N6 &kp N3 &kp DOT &kp C &kp O &kp M>;
+            label = "M1";
+        };
+
+        M5: M5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(S) &kp U &kp N &kp N &kp I &kp W &kp E &kp L &kp L &kp DOT &kp N2 &kp N0 &kp N2 &kp N0>;
+            label = "M5";
+        };
+
+        M2: M2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp EQUAL &kp LS(V) &kp LS(L) &kp LS(O) &kp LS(O) &kp LS(K) &kp LS(U) &kp LS(P) &kp LPAR &kp LS(A) &kp N2 &kp COMMA &kp DLLR &kp LS(G) &kp DLLR &kp N1 &kp COLON &kp DLLR &kp LS(H) &kp DLLR &kp N1 &kp N5 &kp N8 &kp COMMA &kp N2 &kp COMMA &kp N0 &kp RPAR>;
+            label = "M2";
+        };
+
+        M3: M3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp M &kp Y &kp V &kp O &kp I &kp C &kp E &kp C &kp H &kp E &kp N &kp N0 &kp N0 &kp N1 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "M3";
+        };
+
+        M6: M6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&none>,
+                <&macro_tap>,
+                <&kp LC(L) &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp W &kp W &kp W &kp DOT &kp X &kp I &kp A &kp O &kp H &kp O &kp N &kp G &kp S &kp H &kp U &kp DOT &kp C &kp O &kp M &kp FSLH>,
+                <&macro_tap>,
+                <&kp SPACE &kp ENTER>;
+
+            label = "M6";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
