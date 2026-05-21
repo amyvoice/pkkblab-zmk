@@ -65,12 +65,12 @@
             key-positions = <20 21>;
         };
 
-        bootloader-left {
+        Bootloader-left {
             bindings = <&bootloader>;
             key-positions = <3 2 1 0>;
         };
 
-        bootloader-right {
+        Bootloader-right {
             bindings = <&bootloader>;
             key-positions = <9 8 7 6>;
         };
