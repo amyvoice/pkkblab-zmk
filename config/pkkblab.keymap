@@ -125,6 +125,46 @@
             bindings = <&kp NUMBER_4>;
             key-positions = <3 13>;
         };
+
+        Number5 {
+            bindings = <&kp N5>;
+            key-positions = <4 14>;
+        };
+
+        Number6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <5 15>;
+        };
+
+        Number7 {
+            bindings = <&kp N7>;
+            key-positions = <6 16>;
+        };
+
+        Number8 {
+            bindings = <&kp N8>;
+            key-positions = <7 17>;
+        };
+
+        Number9 {
+            bindings = <&kp N9>;
+            key-positions = <8 18>;
+        };
+
+        Number0 {
+            bindings = <&kp N0>;
+            key-positions = <9 19>;
+        };
+
+        Left-Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <13 14>;
+        };
+
+        Left-BackSpace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
