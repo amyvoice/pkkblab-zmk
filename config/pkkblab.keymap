@@ -231,26 +231,26 @@
 
         Number {
             bindings = <
-&kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3          &kp NUMBER_4       &kp N5                &kp NUMBER_6   &kp N7     &kp N8            &kp N9             &kp N0
-&kp HOME          &kp PAGE_UP    &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &kp GRAVE             &kp MINUS      &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&kp END           &kp PAGE_DOWN  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp NON_US_BACKSLASH  &kp SEMICOLON  &kp SQT    &kp COMMA         &kp PERIOD         &kp SLASH
-&kp LEFT_CONTROL  &none          &kp LEFT_ALT          &kp LEFT_SHIFT     &kp LEFT_SHIFT        &kp SPACE      &kp SPACE  &kp PRINTSCREEN   &kp LGUI           &kp DEL
+&kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3          &kp NUMBER_4       &kp N5                &kp NUMBER_6   &kp N7     &kp N8            &kp N9             &kp N0
+&kp HOME      &kp PAGE_UP    &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &kp GRAVE             &kp MINUS      &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
+&kp END       &kp PAGE_DOWN  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp NON_US_BACKSLASH  &kp SEMICOLON  &kp SQT    &kp COMMA         &kp PERIOD         &kp SLASH
+&kp LG(LEFT)  &none          &kp LG(RIGHT)         &kp LEFT_SHIFT     &kp LEFT_SHIFT        &kp SPACE      &kp SPACE  &kp PRINTSCREEN   &none              &kp DEL
             >;
         };
 
         ArrowAndMouse {
             bindings = <
-&kp PAGE_UP       &mkp MB1      &kp UP_ARROW  &mkp MB2        &kp C_VOLUME_UP    &kp C_VOLUME_UP    &mkp MB1        &mmv MOVE_UP       &mkp MB2            &kp PAGE_UP
-&kp PAGE_DOWN     &kp LEFT      &kp DOWN      &kp RIGHT       &kp C_VOLUME_DOWN  &kp C_VOLUME_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN     &mmv MOVE_RIGHT     &kp PAGE_DOWN
-&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR_ALL  &out OUT_USB       &kp HOME           &kp END         &kp LC(LS(COMMA))  &kp LS(LC(PERIOD))  &kp PRINTSCREEN
-&kp LEFT_CONTROL  &none         &kp LALT      &mkp MB1        &mkp MB1           &mkp MB2           &mkp MB2        &none              &none               &kp RG(RCTRL)
+&kp PAGE_UP    &mkp MB1      &kp UP_ARROW   &mkp MB2        &kp C_VOLUME_UP    &kp C_VOLUME_UP    &mkp MB1        &mmv MOVE_UP       &mkp MB2            &kp PAGE_UP
+&kp PAGE_DOWN  &kp LEFT      &kp DOWN       &kp RIGHT       &kp C_VOLUME_DOWN  &kp C_VOLUME_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN     &mmv MOVE_RIGHT     &kp PAGE_DOWN
+&bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_CLR_ALL  &out OUT_USB       &kp HOME           &kp END         &kp LC(LS(COMMA))  &kp LS(LC(PERIOD))  &kp PRINTSCREEN
+&kp LA(LEFT)   &none         &kp LA(RIGHT)  &mkp MB1        &mkp MB1           &mkp MB2           &mkp MB2        &none              &none               &kp RG(RCTRL)
             >;
         };
 
         FunctionAndMacro {
             bindings = <
 &kp ESC          &kp F1  &kp F2        &kp F3          &kp F4          &M0    &M1    &M2    &M3                &none
-&kp LC(LS(TAB))  &kp F5  &kp F6        &kp F7          &kp F8          &M5    &M6    &none  &none              &out OUT_TOG
+&kp LC(LS(TAB))  &kp F5  &kp F6        &kp F7          &kp F8          &M5    &M6    &none  &none              &none
 &kp LC(TAB)      &kp F9  &kp F10       &kp F11         &kp F12         &none  &none  &none  &none              &none
 &kp LCTRL        &none   &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_SHIFT  &none  &none  &none  &ext_power EP_OFF  &ext_power EP_ON
             >;
